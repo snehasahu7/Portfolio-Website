@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT }  from "../constants"
-import profilepic from "../assets/IMG20221231133523_01.jpg"
+import profilepic from "../assets/intropic3.png"
 import { motion } from "motion/react"
 
 const Container =(Delay)=>({
@@ -12,6 +12,18 @@ const Container =(Delay)=>({
   }
 
 });
+const iconVar=(duration)=>({
+  initial: {y:-15},
+  animate:{
+    y: [18,-18],
+    transition:{
+         duration: duration,
+         ease: "linear",
+         repeat: Infinity,
+         repeatType: "reverse"
+    }
+  }
+})
 
 function Intro({lightmode, setlightmode}){
     return(
@@ -31,22 +43,10 @@ function Intro({lightmode, setlightmode}){
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-0">
                 <div className="flex justify-center">
-                <motion.div
-              style={{ perspective: 1000 }}
-              initial={{ x: 100, opacity: 0 }} // Slide-in from right
-              animate={{ x: 0, opacity: 1 }} // Animates to normal position
-              transition={{ duration: 1.5, ease: "easeOut" }} // Smooth entrance
-              whileHover={{ rotateY: 180 }} // Flip effect on hover
-              className="relative w-125 h-125 rounded-2xl"
-            >
-              {/* Front Image */}
-              <motion.img
-                className="absolute w-full h-full rounded-2xl"
-                src={profilepic} // Replace with your image
-                alt="Profile"
-                style={{ backfaceVisibility: "hidden" }}
-              />
-              </motion.div>{/*<motion.img initial={{x:100, opacity:0 }} animate={{x:0,opacity:1}} transition={{duration:1, delay:1.2}} className="w-125 rounded-2xl" src={profilepic} alt="Sneha Sahu"/>*/}
+                <motion.div variants={iconVar(2.5)} initial="initial" animate="animate">
+                  <motion.img initial={{x:100, opacity:0 }} animate={{x:0,opacity:1}} transition={{duration:1, delay:1.2}} className="w-125 rounded-2xl" src={profilepic} alt="Sneha Sahu"/>
+                </motion.div>
+                
                 </div>
 
                 </div>
