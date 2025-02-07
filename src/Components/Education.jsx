@@ -15,10 +15,10 @@ function Education({lightmode, setlightmode}){
                     <motion.div whileInView={{opacity:1, x:0}}
                     initial={{x:-100, opacity:0}}
                     transition={{duratiion:1.5}} 
-                    className="h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl shadow-gray-800 my-5 border-5 border-neutral-500">
-                    <p className="px-5 my-10 text-left lg:text-2xl text-l">Bishop Westcott Girls'School Doranda, Ranchi</p>
-                    <h1 className="lg:text-lg font-bold px-5 text-left text-md">Class 10 : 91.8%</h1>
-                    <h1 className="lg:text-lg font-bold px-5 text-left py-8 text-md">April 2007-March 2020</h1>
+                    className="lg:h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl shadow-gray-800 my-5 border-5 border-neutral-500 h-72">
+                    <p className="px-5 my-10 text-left lg:text-2xl text-xs md:text-l ">Bishop Westcott Girls'School Doranda, Ranchi</p>
+                    <h1 className="lg:text-lg font-bold px-5 text-left text-xs md:text-md sm:text-sm ">Class 10 : 91.8%</h1>
+                    <h1 className="lg:text-lg font-bold px-5 text-left text-xs py-8 md:text-md sm:text-sm ">April 2007-March 2020</h1>
                     </motion.div>
                 </div>
                
@@ -27,20 +27,20 @@ function Education({lightmode, setlightmode}){
                      whileInView={{opacity:1, x:0}}
                      initial={{x:100, opacity:0}}
                      transition={{duratiion:1.5}} 
-                    className="h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl my-5 shadow-gray-800 border-5 border-neutral-500 ">
-                    <p className="px-5 my-10 text-left text-2xl">Jawahar Vidya Mandir Shyamali, Ranchi</p>
-                    <h1 className="text-lg font-bold px-5 text-left">Class 12 : 88.8%</h1>
-                    <h1 className="text-lg font-bold px-5 text-left py-8">June 2020-March 2022</h1>
+                    className="lg:h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl my-5 shadow-gray-800 border-5 border-neutral-500 h-72 ">
+                    <p className="px-5 my-10 text-left text-xs lg:text-2xl md:text-l ">Jawahar Vidya Mandir Shyamali, Ranchi</p>
+                    <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm text-xs md:text-md ">Class 12 : 88.8%</h1>
+                    <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm text-xs py-8 md:text-md ">June 2020-March 2022</h1>
                 </motion.div>
                 </div>
                 <motion.div 
                      whileInView={{opacity:1, x:0}}
                      initial={{x:-100, opacity:0}}
                      transition={{duratiion:1.5}} 
-                    className="h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl my-5 shadow-gray-800 border-5 border-neutral-500 ">
-                    <p className="px-5 my-10 text-left text-2xl">Birla Institute of Technology Mesra, Ranchi</p>
-                    <h1 className="text-lg font-bold px-5 text-left">B.Tech in CSE, CGPA: 8.98</h1>
-                    <h1 className="text-lg font-bold px-5 text-left py-8">November 2022-Present</h1>
+                    className="lg:h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl my-5 shadow-gray-800 border-5 border-neutral-500 h-72">
+                    <p className="px-5 my-10 text-left text-sm text-xs lg:text-2xl md:text-l  ">Birla Institute of Technology Mesra, Ranchi</p>
+                    <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm text-xs md:text-md ">B.Tech in CSE, CGPA: 8.98</h1>
+                    <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm py-8 text-xs md:text-md ">November 2022-Present</h1>
                 </motion.div>
 
             </div>
