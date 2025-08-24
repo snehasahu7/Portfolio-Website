@@ -2,10 +2,13 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project8.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 
 
-export const HERO_CONTENT = `I’m a pre-final year BTech student at BIT Mesra. I am a Web developer and a Competitive programmer. I’ve honed my skills in React, Node.js, MySQL, PostgreSQL, and MongoDB, aiming to create innovative solutions that drive growth and deliver great user experiences.
+export const HERO_CONTENT = `I’m a final year BTech student at BIT Mesra. I am a Web developer and a Competitive programmer. I’ve honed my skills in React, Node.js, MySQL, PostgreSQL, and MongoDB, aiming to create innovative solutions that drive growth and deliver great user experiences.
 
 I have hands-on experience with RESTful APIs, user authentication, and database management.`;
 
@@ -44,11 +47,19 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Agrix Website",
+    image: project5,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed the company website from scratch, focusing on a clean UI, responsive design, and seamless user experience.",
+    technologies: ["React", "Express.js","Node.js","Nodemailer","Selenium"],
+
+  },
+  {
+    title: "Food Ordering Website",
+    image: project6,
+    description:
+      "Engineered a full-stack food ordering platform, supporting 200+ concurrent users with real-time cart and order functionalities.",
+    technologies: ["Express.js", "React", "Node.js", "MongoDB","CSS"],
   },
   {
     title: "Zhub Store",
@@ -62,7 +73,15 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["CSS", "React", "Bootstrap"],
+  },
+  {
+    title: "MindMate",
+    image: project7,
+    description:
+      "Built a full-stack wellness platform enabling mood logging, emotional trend visualization, and AI-powered mental health chatbot interaction.",
+    technologies: ["SQLite","GeminiAPI","React","Flask"]
+    
   },
   {
     title: "Heart Diesease Predictor",
@@ -76,5 +95,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Birla Institute of Technology Mesra, Patna campus, Bihar-800014 ",
   phoneNo: "8102973759",
-  email: "email",
+  email: "snehasahu990@gmail.com",
 };

@@ -16,12 +16,12 @@ function About({lightmode,setlightmode}){
                   transition={{duratiion:0.5}}
                   className="w-full lg:p-8 lg:w-1/2">
                    <div className="flex items-center justify-center">
-                       <img className=" h-130 w-120 rounded-2xl" src={aboutimg} alt="about"/>
+                       <img className=" h-110 w-90 rounded-2xl" src={aboutimg} alt="about"/>
                    </div>
                      
                 </motion.div>
                 <motion.div 
-                    whileInView={{opacity:1, x:0}}
+                    whileInView={{opacity:1, x:100}}
                     initial={{x:100, opacity:0}}
                     transition={{duratiion:0.7}}  
                     className="w-full lg:w-1/2">
