@@ -16,7 +16,7 @@ function About({lightmode,setlightmode}){
                   transition={{duratiion:0.5}}
                   className="w-full lg:p-8 lg:w-1/2">
                    <div className="flex items-center justify-center">
-                       <img className=" h-110 w-100 rounded-2xl" src={aboutimg} alt="about"/>
+                       <img className=" h-100 w-100 rounded-2xl" src={aboutimg} alt="about"/>
                    </div>
                      
                 </motion.div>
@@ -26,7 +26,7 @@ function About({lightmode,setlightmode}){
                     transition={{duratiion:0.7}}  
                     className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                        <p className="my-2 max-w-xl pl-3 py-6">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>
