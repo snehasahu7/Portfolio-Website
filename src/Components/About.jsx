@@ -9,7 +9,7 @@ function About({lightmode,setlightmode}){
             <h1 className="text-center my-20 text-4xl">About 
                 <span className={lightmode?"text-yellow-800":"text-neutral-500"}> Me</span>
             </h1>
-            <div className="flex flex-wrap items-center">
+            <div className="flex flex-col md:flex-row flex-wrap items-center justify-center text-center md:text-left">
                 <motion.div 
                   whileInView={{opacity:1, x:0}}
                   initial={{x:-100, opacity:0}}
