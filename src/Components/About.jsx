@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from "../assets/pixelcut-export.png"
+import aboutimg from "../assets/aboutimg2.png"
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -16,7 +16,7 @@ function About({lightmode,setlightmode}){
                   transition={{duratiion:0.5}}
                   className="w-full lg:p-8 lg:w-1/2">
                    <div className="flex items-center justify-center">
-                       <img className=" h-110 w-90 rounded-2xl" src={aboutimg} alt="about"/>
+                       <img className=" h-110 w-100 rounded-2xl" src={aboutimg} alt="about"/>
                    </div>
                      
                 </motion.div>
