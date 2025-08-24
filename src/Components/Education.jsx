@@ -39,7 +39,7 @@ function Education({lightmode, setlightmode}){
                      transition={{duratiion:1.5}} 
                     className="lg:h-64 w-1/2 bg-slate-400 rounded-xl text-black shadow-xl my-5 shadow-gray-800 border-5 border-neutral-500 h-72">
                     <p className="px-5 my-10 text-left text-sm text-xs lg:text-2xl md:text-l  ">Birla Institute of Technology Mesra, Ranchi</p>
-                    <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm text-xs md:text-md ">B.Tech in CSE, CGPA: 8.98</h1>
+                    <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm text-xs md:text-md ">B.Tech in CSE, CGPA: 8.96</h1>
                     <h1 className="lg:text-lg font-bold px-5 text-left sm:text-sm py-8 text-xs md:text-md ">November 2022-Present</h1>
                 </motion.div>
 
