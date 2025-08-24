@@ -25,8 +25,8 @@ function About({lightmode,setlightmode}){
                     initial={{x:100, opacity:0}}
                     transition={{duratiion:0.7}}  
                     className="w-full lg:w-1/2">
-                    <div className="w-full md:w-1/2 flex justify-center lg:justify-start mt-6 md:mt-0">
-                        <p className="my-2 max-w-xl lg:py-6">{ABOUT_TEXT}</p>
+                    <div className="w-full md:w-1/2 flex justify-center lg:justify-start mt-6 md:mt-0 items-center">
+                        <p className="my-2 max-w-xl text-center lg:py-6">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>
