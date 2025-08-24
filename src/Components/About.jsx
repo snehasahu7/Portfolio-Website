@@ -9,7 +9,7 @@ function About({lightmode,setlightmode}){
             <h1 className="text-center my-20 text-4xl">About 
                 <span className={lightmode?"text-yellow-800":"text-neutral-500"}> Me</span>
             </h1>
-            <div className="flex flex-col md:flex-row items-center justify-center min-h-screen px-4 text-center md:text-left">
+            <div className="flex flex-wrap items-center">
                 <motion.div 
                   whileInView={{opacity:1, x:0}}
                   initial={{x:-100, opacity:0}}
@@ -25,8 +25,8 @@ function About({lightmode,setlightmode}){
                     initial={{x:100, opacity:0}}
                     transition={{duratiion:0.7}}  
                     className="w-full lg:w-1/2">
-                    <div className="w-full md:w-1/2 flex justify-center lg:justify-start mt-6 md:mt-0 items-center">
-                        <p className="my-2 max-w-xl lg:py-6">{ABOUT_TEXT}</p>
+                    <div className="flex justify-center lg:justify-start">
+                        <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>
